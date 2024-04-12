@@ -11,6 +11,10 @@ div[class*=upsellBanner] {
     display: none !important;
 }
 
+button[class*=selectorButtonPremiumRequired] {
+    display: none !important;
+}
+
 /* Chat view blocks */
 /* Nitro tab */
 [data-list-item-id*="___nitro"] {
