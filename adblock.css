@@ -11,7 +11,8 @@ div[class*=upsellBanner] {
     display: none !important;
 }
 
-button[class*=selectorButtonPremiumRequired] {
+/* Hides Premium Buttons In Quality Settings */
+div[class*="qualitySettingsContainer"] button[class*=selectorButtonPremiumRequired] {
     display: none !important;
 }
 
@@ -20,8 +21,14 @@ div[class*="qualitySettingsContainer"] div[class*="settingsGroup"]:first-child:h
     display: none !important;
 }
 
+/* Makes The Fps Selector Smaller */
 div[class*="qualitySettingsContainer"] div[class*="settingsGroup"]:last-child:has(button[class*=selectorButtonPremiumRequired]) div[class*="group"] {
     width: 183.27px;
+}
+
+/* Restores Border Radius To New Last Button */
+div[class*="qualitySettingsContainer"] div[class*="settingsGroup"]:last-child:has(button[class*=selectorButtonPremiumRequired]) div[class*="group"] button:nth-last-child(2) {
+    border-radius: 0 3px 3px 0;
 }
 
 /* Chat view blocks */
