@@ -6,6 +6,11 @@
 @author         Me
 ==/UserStyle== */
 
+/* Hide Locked Emojis */
+li:has(div[class*=emojiLockIconContainer]) {
+    display: none !important;
+}
+
 /* Stream Quality Upsell */
 div[class*=upsellBanner] {
     display: none !important;
