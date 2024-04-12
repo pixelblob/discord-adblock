@@ -6,6 +6,12 @@
 @author         Me
 ==/UserStyle== */
 
+/* Hides Send Gift Button On Chat Bar */
+button[aria-label="Send a gift"] {
+    display: none !important;
+}
+
+
 /* Stream Quality Upsell */
 div[class*=upsellBanner] {
     display: none !important;
