@@ -11,11 +11,6 @@ div[class*=upsellBanner] {
     display: none !important;
 }
 
-/* Hides Premium Buttons In Quality Settings */
-div[class*="qualitySettingsContainer"] button[class*=selectorButtonPremiumRequired] {
-    display: none !important;
-}
-
 /* Hides Quality Selector If Nitro Button Upsell Present Due To There Only Being A Single Resolution Left! */
 div[class*="qualitySettingsContainer"] div[class*="settingsGroup"]:first-child:has(button[class*=selectorButtonPremiumRequired]) {
     display: none !important;
