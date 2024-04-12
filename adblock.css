@@ -6,6 +6,11 @@
 @author         Me
 ==/UserStyle== */
 
+/* Stream Quality Upsell */
+div[class*=upsellBanner] {
+    display: none !important;
+}
+
 /* Chat view blocks */
 /* Nitro tab */
 [data-list-item-id*="___nitro"] {
