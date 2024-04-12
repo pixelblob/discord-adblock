@@ -23,7 +23,7 @@ div[class*="qualitySettingsContainer"] div[class*="settingsGroup"]:first-child:h
 
 /* Makes The Fps Selector Smaller */
 div[class*="qualitySettingsContainer"] div[class*="settingsGroup"]:last-child:has(button[class*=selectorButtonPremiumRequired]) div[class*="group"] {
-    width: 183.27px;
+    width: 165.69px;
 }
 
 /* Restores Border Radius To New Last Button */
